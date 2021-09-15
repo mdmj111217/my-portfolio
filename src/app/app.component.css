@@ -1,0 +1,43 @@
+.container {
+    width: 1000px;
+    margin: 10px;
+}
+
+.mainbar {
+    width: 700px;
+}
+
+.sidebar {
+    width: 200px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+    width: 200;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.photos {
+    position: relative;
+    display: none;
+}
+
+.full-width {
+    width: 100%;
+}
